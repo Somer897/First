@@ -16,3 +16,5 @@ for i in range(1, 3):
 
 df = pd.DataFrame(r.values(), index=r.keys())
 print(df)              #DataFrame
+df.to_csv('D:/1.csv')        #Save in disk D: as escel
+df.to_csv('D:/1.csv', encoding='Unicode-1231')        #
