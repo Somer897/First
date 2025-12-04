@@ -15,6 +15,6 @@ def simple(num, n):
         else:
             return simple(num, n)
 
-num = 56
+num = 22897
 n = [1]
 print(simple(num, n))
